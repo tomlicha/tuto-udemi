@@ -48,6 +48,7 @@
   <ItemGroup>
      <Compile Include="Assets\Script\BulletScript.cs" />
      <Compile Include="Assets\Script\FireInTheHole.cs" />
+     <Compile Include="Assets\Script\Menu.cs" />
      <Compile Include="Assets\Script\ScriptSpawn.cs" />
      <Compile Include="Assets\Script\plateFormFallDown.cs" />
      <None Include="Assets\texturepackA\shaders\bumpedspecmap.shader" />
