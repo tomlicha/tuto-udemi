@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 187167fa4c74243c98d4f2adcf353675
+timeCreated: 1519300701
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Take Me On
+  fontNames:
+  - Take Me On
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

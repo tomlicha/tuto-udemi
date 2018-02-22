@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class BulletScript : MonoBehaviour {
-
+	public AudioClip soundDeath;
 	// Use this for initialization
 	void Start () {
 		Debug.Log("player dead");
@@ -12,6 +12,7 @@ public class BulletScript : MonoBehaviour {
 	// Update is called once per frame
 	void OnTriggerEnter (Collider Other) {
 		if (Other.gameObject.tag == "Player"){
+			GetComponent<AudioSource>().PlayOneShot(soundDeath);
 			Other.gameObject.transform.position = GameObject.Find("SpawnPoint").transform.position;
 		}
 	}

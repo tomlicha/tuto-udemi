@@ -10,7 +10,7 @@ public class FireInTheHole : MonoBehaviour {
 	public float shootRate = 0.2f;
 	private float nextShot;
 	public int speed = 1000;
-
+	public AudioClip shootingSound;
 
 
 	// Use this for initialization
@@ -25,6 +25,7 @@ public class FireInTheHole : MonoBehaviour {
 
 			nextShot = Time.time + shootRate;
 			bullet = Instantiate(prefabBullet,transform.position,Quaternion.identity);
+			GetComponent<AudioSource>().PlayOneShot(shootingSound);
 			bullet.GetComponent<Rigidbody>().AddForce(transform.TransformDirection(Vector3.right) * speed);
 			Destroy(bullet,2f);
 		
