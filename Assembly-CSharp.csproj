@@ -48,11 +48,13 @@
   <ItemGroup>
      <Compile Include="Assets\Script\BulletScript.cs" />
      <Compile Include="Assets\Script\FireInTheHole.cs" />
+     <Compile Include="Assets\Script\GameOver.cs" />
      <Compile Include="Assets\Script\Menu.cs" />
      <Compile Include="Assets\Script\ScriptSpawn.cs" />
      <Compile Include="Assets\Script\boat.cs" />
      <Compile Include="Assets\Script\colisionTourniquet.cs" />
      <Compile Include="Assets\Script\endLevel.cs" />
+     <Compile Include="Assets\Script\lifeScript.cs" />
      <Compile Include="Assets\Script\plateFormFallDown.cs" />
      <Compile Include="Assets\Script\rotation.cs" />
      <None Include="Assets\texturepackA\shaders\bumpedspecmap.shader" />

@@ -6,7 +6,7 @@ public class BulletScript : MonoBehaviour {
 	public AudioClip soundDeath;
 	// Use this for initialization
 	void Start () {
-		Debug.Log("player dead");
+		
 	}
 	
 	// Update is called once per frame
