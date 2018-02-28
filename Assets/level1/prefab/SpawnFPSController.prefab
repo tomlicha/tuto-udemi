@@ -151,6 +151,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f24572b5b1b4c9a41b5a388445bba5f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  soundDeath: {fileID: 0}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

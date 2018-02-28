@@ -13,9 +13,14 @@ public class ScriptSpawn : MonoBehaviour {
     {
         if(Other.gameObject.tag== "Player")
         {
-            GetComponent<AudioSource>().PlayOneShot(soundDeath);
+            StartCoroutine(death());
             Other.gameObject.transform.position = GameObject.Find("SpawnPoint").transform.position;
             
         }	
+	}
+    IEnumerator death (){
+		GetComponent<AudioSource>().PlayOneShot(soundDeath);
+		yield return new WaitForSeconds(3);
+		
 	}		
 }
