@@ -50,6 +50,7 @@
      <Compile Include="Assets\Script\FireInTheHole.cs" />
      <Compile Include="Assets\Script\Menu.cs" />
      <Compile Include="Assets\Script\ScriptSpawn.cs" />
+     <Compile Include="Assets\Script\boat.cs" />
      <Compile Include="Assets\Script\colisionTourniquet.cs" />
      <Compile Include="Assets\Script\endLevel.cs" />
      <Compile Include="Assets\Script\plateFormFallDown.cs" />
